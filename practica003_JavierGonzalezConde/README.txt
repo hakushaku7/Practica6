@@ -1,0 +1,2 @@
+Vale, la api esta en la carpeta dataAPI, concesionarioApp en concesionario y la de los clientes en cliente.
+Objectmanager y endidades son librerias o similares que se usan en varias de las carpetas, por lo que mejor tenerlo fuera.

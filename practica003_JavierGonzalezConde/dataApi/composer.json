@@ -1,0 +1,24 @@
+{
+    "name": "haku/data-api",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src\\",
+            "config\\": "config\\",
+            "ExternalAccess\\general\\": "..\\ExternalAccess\\src\\general\\",
+            "ExternalAccess\\exceptions\\": "..\\ExternalAccess\\src\\exceptions\\",
+            "ExternalAccess\\database\\": "..\\ExternalAccess\\src\\database\\",
+            "entidades\\": "..\\entidades\\src\\",
+            "ExternalAccess\\api\\server\\": "..\\ExternalAccess\\src\\api\\server\\"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Javier González Conde"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.7"
+    }
+}
